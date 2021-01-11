@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+}
+
+.menu-header {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+nav img {
+    width: 20px;
+    margin: 5px 0 0 30px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100vw;
+}
