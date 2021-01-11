@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+
 * {
     box-sizing: border-box;
     border: none;
@@ -5,16 +7,14 @@
     padding: 0;
 }
 
-.container {
-
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 .menu-header {
     margin: 20px 0;
     display: flex;
     justify-content: space-around;
-
-    
 }
 
 nav img {
@@ -25,4 +25,35 @@ nav img {
 
 .banner {
     width: 100vw;
+}
+
+.product {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #A5A1A1;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.card-image img {
+    width: 250px;
+    height: 250px;
+}
+
+.card-information {
+    margin: 10px 0;
+}
+
+span {
+    color: #5CA720;
 }
