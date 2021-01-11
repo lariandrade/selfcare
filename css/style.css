@@ -5,6 +5,7 @@
     border: none;
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -36,14 +37,13 @@ nav img {
 
 .container-card {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
+    padding: 20px 40px;
 }
 .card-image img {
     width: 250px;
@@ -51,9 +51,15 @@ nav img {
 }
 
 .card-information {
-    margin: 10px 0;
+    margin-top: 20px;
+}
+
+.card-information p:nth-child(2) {
+    margin-top: 10px;
 }
 
 span {
     color: #5CA720;
 }
+
+
