@@ -5,7 +5,12 @@
     border: none;
     margin: 0;
     padding: 0;
+}
 
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
 }
 
 body {
@@ -69,4 +74,34 @@ span {
     color: #5CA720;
 }
 
+/* FOOTER */
 
+.container-footer {
+    border-top: 1px solid #A5A1A1;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    color: #161616;
+}
+
+.option li{
+    margin-bottom: 10px;  
+}
+
+.newsletter {
+    width: 300px;
+}
+.newsletter input {
+   margin-top: 10px;
+   padding: 10px;
+   width: 200px;
+}
+
+.newsletter button {
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #5CA720;
+    padding: 10px;
+    border-radius: 0px 3px 3px 0px;
+}
