@@ -25,7 +25,7 @@ nav img {
 }
 
 .banner {
-    width: 100vw;
+    width: 100%;
 }
 
 .product {
@@ -35,15 +35,23 @@ nav img {
     border-bottom: 1px solid #A5A1A1;
 }
 
+/* CARDS */
+
 .container-card {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 20px;
+    margin: auto;
 }
 
 .card {
     padding: 20px 40px;
+    width: 30%;
+}
+
+.card-image {
+    width: 30%;
 }
 .card-image img {
     width: 250px;
