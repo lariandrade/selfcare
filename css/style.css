@@ -161,19 +161,6 @@ span {
         margin-right: 30px;
     }
 }
-/* 
-@media (max-width: 1034px) {
-    .menu-header, .product, .container-card, .footer, .informations {
-        max-width: 800px;
-    }
-}
-
-@media (max-width: 888px) {
-    .menu-header, .product, .container-card, .footer, .informations {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-} */
 
 @media (max-width: 704px) {
     .card-image img {
