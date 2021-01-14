@@ -4,20 +4,17 @@
    <img src="design/desktop.png" width="380" height="600">
 
 
-  <h3 align="center">selfcare</h3>
+  <h1 align="center">SELFCARE</h1>
 
-  <p align="center">
-    Crie uma página para exibição de produtos
-       <br />
-    <br />
-    <a href="https://github.com/thaysagomes/selfcare">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/tcgms/">Contato</a>
-  </p>
+  <br />
 </p>
 
+# Créditos
+
+- Desafio retirado da <a href="https://devchallenge.now.sh/">DevChallenge</a>.
 
 
+> Creditos 
 # Devchallenge 
 <a href="https://devchallenge.now.sh/">DevChallenge</a> permite que você evolua suas skills como programador!
 
