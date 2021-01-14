@@ -7,8 +7,12 @@
   <br />
 </p>
 
-# Créditos
+## Créditos
 
-- Desafio retirado da [DevChallenge](https://devchallenge.com.br/)
-- Criado por [Thaysa Gomes](https://github.com/thaysagomes)
-- Link do repositório: [Selfcare](https://github.com/thaysagomes/selfcare)
+- Desafio retirado da [DevChallenge](https://devchallenge.com.br/).
+- Criado por [Thaysa Gomes](https://github.com/thaysagomes).
+- Link do repositório: [Selfcare](https://github.com/thaysagomes/selfcare).
+
+## Minha proposta
+
+Para saber como ficou minha versão é só [clicar aqui](https://selfcare.netlify.app/).
