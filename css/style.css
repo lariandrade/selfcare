@@ -47,7 +47,7 @@ nav img {
 
 .container-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px auto;
     max-width: 1280px;
@@ -57,9 +57,6 @@ nav img {
     padding: 20px 36px;
 }
 
-.card-image {
-    width: 30%;
-}
 .card-image img {
     width: 250px;
     height: 250px;
@@ -152,3 +149,46 @@ span {
 .buy img:nth-child(3) {
     width: 60px;
 } 
+
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 1318px) {
+    .menu-header, .product, .container-card, .footer, .informations {
+        max-width: 980px;
+    }
+}
+
+@media (max-width: 1034px) {
+    .menu-header, .product, .container-card, .footer, .informations {
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 888px) {
+    .menu-header, .product, .container-card, .footer, .informations {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 704px) {
+    .card-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .newsletter {
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .newsletter input, .newsletter button {
+        width: 80%;
+        font-size: 16px;
+    }
+}
